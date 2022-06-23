@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log-in</title>
+    <script src="jquary.js"></script>
+    <style>
+        #beta2022 {
+            width: 100%;
+            background-color: grey;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        main {
+            padding-top: 10rem;
+            height: 22rem;
+            text-align: center;
+            display: block;
+            background-image: url("img/logboxbg.jpg");
+            padding-bottom: 10rem;
+        }
+        body{
+            font-family: sans-serif;
+        }
+
+        label {
+
+            background-color: blueviolet;
+            padding: .5rem;
+            border-radius: 1rem;
+            font-size: 30px;
+            color: whitesmoke;
+            font-family: sans-serif;
+        }
+
+        input {
+            border-radius: 1rem;
+            margin: 1rem;
+            padding: 1rem;
+            width: 50%;
+        }
+
+        #login {
+            font-size: 1rem;
+            border-radius: 1rem;
+
+            padding: 1rem;
+            color: snow;
+            background-color: greenyellow;
+        }
+        h2,p {
+color: snow;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="beta2022">
+        <b id="tempnote">! NOTE !</b>
+        <br>
+        This is Beta version of this Website.
+        <br>
+        Some features will Not work
+        <!-- remove this link after complete this web page -->
+        <!-- <a id="templink"
+            href="https://nicepage.com/website-templates/preview/solutions-improve-productivity-283136?device=desktop"
+            target="none">
+            WEb design / Layout
+        </a> -->
+    </div>
+
+    <main>
+        <h2>Welcome to Team Log-in page</h2>
+        <p>only aunthenticate person can visit my site </p>
+        <br>
+        <div id="errorbox"></div>
+        <label for="username"> Username </label> <br>
+        <input type="text" id="username" value="Bunny">
+        <br>
+        <label for="password">Password</label> <br>
+        <input type="password" id="Password" value="22122002">
+        <br>
+        <button id="login">log-in</button>
+        <br>
+
+        <a id="ls" href="Index.html">
+            <button id="sc">
+            </button>
+        </a>
+    </main>
+</body>
+<script src="login.js">
+
+</script>
+
+</html>

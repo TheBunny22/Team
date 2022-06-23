@@ -1,0 +1,26 @@
+#beta2022{
+    text-align: center;
+    background-color: grey;
+}
+#tempnote{
+    color:rgb(17, 17, 27);
+}
+.nav-bar{
+    display: block;
+    background-color: rgb(36, 35, 35);
+}
+.nav-bar ul{
+    display:flexbox;
+    border: solid blue 1px;
+}
+.nav-bar ul li{
+    border: solid red 1px;
+    display: inline-flex;
+    padding: 10px 10px ;
+    margin-right: 10px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+
+}
